@@ -1,0 +1,104 @@
+cd
+mkdir
+cd repogit
+git clone https://github.com/bautistaramosconti12-cell/TP_AySO.git
+cd TP_AySO
+psw
+ls -1
+mkdir repogit
+pwd
+cat /etc/passwd
+man grep
+grep ubuntu /etc/passwd
+grep -i ubuntu /etc/passwd
+sudo grep "ubuntu" /etc/shadow  awk -f '{print $2}' > datos_usuario.txt
+sudo grep "ubuntu" /etc/shadow | awk -f '{print $2}' > datos_usuario.txt
+sudo awk -f: '/ubuntu/ {print $2}' /etc/shadow > datos_usuario.txt
+sudo awk -f '/ubuntu/ {print $2}' /etc/shadow > datos_usuario.txt
+sudo grep ubuntu /etc/shadow > datos_usuario.txt
+cat datos_usuario.txt
+whoami
+echo "usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.email "bautistaramosconti12@gmail.com
+
+git config --global user.email "bautistaramosconti12@gmail.com"
+git config --global user.name "bautistaramosconti12-cell"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+git status
+cat /proc/cpuinfo | head -n1 >> info_pc.txt
+cat /proc/info
+cat/proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 >> info_pc.txt
+cat info_pc.txt
+git add .
+git commit -m "feat: anadiendo informacion de cpu"
+git push
+
+cd
+mkdir repogit
+cd repogit
+git clone https://github.com/bautistaramosconti12-cell/TP_AySO.git
+vagrant@VMPruebas:~/repogit$ git clone https://github.com/bautistaramosconti12-cell/TP_AySO.git
+fatal: destination path 'TP_AySO' already exists and is not an empty directory.
+cd TP_AySO
+pwd
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+sudo grep "ubuntu" /etc/shadow | awk -f: '{print $2}' > datos_usuario.txt
+sudo grep "ubuntu" /etc/shadow | awk -F: '{print $2}' > datos_usuario.txt[200~sudo grep "ubuntu" /etc/shadow | awk -F: '{print $2}' > datos_usuario.txt[200~sudo grep "ubuntu" /etc/shadow | awk -F: '{print $2}' > datos_usuario.txtsudo grep "ubuntu" /etc/shadow | awk -F: '{print $2}' > datos_usuario.txtasdds
+awk: fatal: cannot open source file `:' for reading: No such file or directory\
+
+~
+grep "model name" /proc/cpuinfo | head -n1 >> info_pc.txt
+cat info_pc.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+fatal: not a git repository (or any of the parent directories): .git
+vagrant@VMPruebas:~$ git commit -m "feat: Añadiendo información de CPU"
+fatal: not a git repository (or any of the parent directories): .git
+cd ~/repogit/TP_AySO
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git push
+git status
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+git status
+cat >> README.md << EOF
+Alumno: Bautista Ramos Conti
+División: 115
+Turno: Mañana
+EOF
+
+cat README.md
+git add .
+git commit -m "docs: Agregando información del alumno al README"
+git push
+git status
+mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}
+tree ~/TP1
+sudo apt install tree -y
+tree ~/TP1
+sudo apt update
+tree ~/TP1
+sudo apt update && sudo apt install tree -y
+tree ~/TP1
+cd ~/repogit/TP_AySO
+echo 'mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}' > script_dir.sh
+chmod +x script_dir.sh
+cat script_dir.sh
+ls -l script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+git status
+history -a
