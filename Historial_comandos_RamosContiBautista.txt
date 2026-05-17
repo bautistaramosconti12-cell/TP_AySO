@@ -134,3 +134,26 @@ grep UBUNTU /etc/passwd
 grep ubuntu /etc/passwd 
 grep -i Ubuntu /etc/passwd
 history -a
+cp ~/.bash_history ./Historial_comandos_RamosContiBautista.txt
+git add .
+git commit -m "ADD: actualizando archivos finales"
+git push
+git status
+ls -l
+sudo grep "ubuntu" /etc/shadow | awk -F: '{print $2}' > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "ADD: actualizando datos_usuario.txt"
+git push
+git status
+cat datos_usuario.txt
+cat info_pc.txt
+cat lista_ordenada
+cat README.md
+cat script_dir.sh
+ls -l script_dir.sh
+head -n20 Historial_comandos_RamosContiBautista.txt
+grep UBUNTU /etc/passwd
+cat /etc/passwd
+history -a
