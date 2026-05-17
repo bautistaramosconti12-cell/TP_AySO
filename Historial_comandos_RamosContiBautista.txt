@@ -102,3 +102,35 @@ git commit -m "ADD: Añadiendo script"
 git push
 git status
 history -a
+cp ~/.bash_history ./Historial_comandos_RamosContiBautista.txt
+cat Historial_comandos_RamosContiBautista.txt
+git add .
+git commit -m "ADD: Historial de comandos"
+git push
+git status
+ls -1
+cat datos_usuario.txt
+sudo grep "ubuntu" /etc/shadow | awk -F: '{print $2}' > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt
+vagrant@VMPruebas:~/repogit/TP_AySO$ cat datos_usuario.txt
+vagrant@VMPruebas:~/repogit/TP_AySO$ sudo grep "ubuntu" /etc/shadow | awk -F: '{print $2}' > datos_usuario.txt
+vagrant@VMPruebas:~/repogit/TP_AySO$ echo "Usuario=$(whoami)" >> datos_usuario.txt
+vagrant@VMPruebas:~/repogit/TP_AySO$ cat datos_usuario.txt
+!
+Usuario=vagrant
+vagrant@VMPruebas:~/repogit/TP_AySO$
+!
+cat info_pc.txt
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+cat info_pc.txt
+cat lista_ordenada
+cat README.md
+vagrant@VMPruebas:~/repogit/TP_AySO$
+cat script_dir.sh
+ls -l script_dir.sh
+head -n20 Historial_comandos_RamosContiBautista.txt
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd 
+grep -i Ubuntu /etc/passwd
+history -a
