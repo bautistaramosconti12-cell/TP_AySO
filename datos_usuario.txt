@@ -1,0 +1,2 @@
+ubuntu:!:20589:0:99999:7:::
+usuario=vagrant
